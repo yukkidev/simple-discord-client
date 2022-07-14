@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.getenv('DISCORD_TOKEN') # you could just define your token here, and remove line 9 if you want
+TOKEN = os.getenv('DISCORD_TOKEN') # you could just define your token here, and remove line 10 and 12 if you want
 
 client = discord.Client()
 
